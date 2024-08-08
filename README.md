@@ -14,9 +14,12 @@
 Terminalden "npm install" yazarak modülleri indiriniz
 
 "Terminale node index.js" yazıp çalıştırınız ve  bu kadar geliştirip kullanın :D
-
-Hata alırsanız aşşağıdaki hesaplarımızdan bize ulaşabilirsiniz.
 ```
+
+```fix
+Hata alırsanız bize aşşağıdaki hesaplardan ulaşabilirsiniz.
+```
+
 
 **Bize ulaşabileceğiniz sosyal medya bilgilerimiz:**
 
