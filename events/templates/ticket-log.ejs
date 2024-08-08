@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Log</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2f3136; /* Discord'un arka plan rengi */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 60%;
+            max-width: 800px;
+            background-color: #36393f; /* Mesaj arka plan rengi */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .message {
+            border-bottom: 1px solid #40444b;
+            padding: 10px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .message:last-child {
+            border-bottom: none;
+        }
+        .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .content {
+            flex: 1;
+            word-wrap: break-word;
+        }
+        .timestamp {
+            font-size: 0.8em;
+            color: #7289da;
+        }
+        .badge {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #ffcc00; /* Rozet rengi, burayı kullanıcı rozet rengi ile değiştirebilirsiniz */
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <% messages.forEach(message => { %>
+            <div class="message">
+                <img src="<%= message.avatar %>" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'" class="avatar" alt="Avatar">
+                <div class="content">
+                    <strong><%= message.author %></strong>
+                    <% if (message.badge) { %>
+                        <span class="badge"></span> <!-- Kullanıcı rozetini buraya ekleyebilirsiniz -->
+                    <% } %>
+                    <span class="timestamp"><%= message.createdAt %></span>
+                    <p><%= message.content %></p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>

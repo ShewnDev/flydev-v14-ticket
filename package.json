@@ -1,0 +1,27 @@
+{
+  "name": "flydev-v14-ticket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "v14-ticket",
+    "ticket",
+    "v14",
+    "flydev",
+    "shewnexe",
+    "shewn",
+    "shivajs",
+    "shiva"
+  ],
+  "author": "shiva-shewn",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.15.3",
+    "ejs": "^3.1.10",
+    "node-fetch": "^3.3.2"
+  }
+}
