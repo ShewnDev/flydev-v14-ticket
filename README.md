@@ -17,6 +17,7 @@ Terminalden "npm install" yazarak modülleri indiriniz
 ```
 
 **Bize ulaşabileceğiniz sosyal medya bilgilerimiz:**
+**Hata alırsanız aşşağıdan bize ulaşabilirsiniz**
 
  [![Discord](https://lanyard.cnrad.dev/api/693185687758962698)](https://discord.com/users/693185687758962698)
  [![Discord](https://lanyard.cnrad.dev/api/1185163404609073173)](https://discord.com/users/1185163404609073173)
@@ -25,7 +26,7 @@ Terminalden "npm install" yazarak modülleri indiriniz
 
 # 📷 Bazı Görüntüler
 
-### Komutlar
+### Mesajlar & Komutlar
 
  <img width="450" alt="image" src="https://resmim.net/cdn/2024/08/09/WVP7OK.jpg">
 
