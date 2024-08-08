@@ -14,10 +14,11 @@
 Terminalden "npm install" yazarak modülleri indiriniz
 
 "Terminale node index.js" yazıp çalıştırınız ve  bu kadar geliştirip kullanın :D
+
+Hata alırsanız aşşağıdaki hesaplarımızdan bize ulaşabilirsiniz.
 ```
 
 **Bize ulaşabileceğiniz sosyal medya bilgilerimiz:**
-**Hata alırsanız aşşağıdan bize ulaşabilirsiniz**
 
  [![Discord](https://lanyard.cnrad.dev/api/693185687758962698)](https://discord.com/users/693185687758962698)
  [![Discord](https://lanyard.cnrad.dev/api/1185163404609073173)](https://discord.com/users/1185163404609073173)
